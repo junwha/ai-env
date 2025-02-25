@@ -19,5 +19,6 @@ apt-get install freeglut3-dev libglu1-mesa-dev mesa-common-dev libxkbfile-dev li
 
 # Additional Utils
 apt-get install ssh openssh-server
-apt-get install x11 samba
+apt-get install samba
 apt-get install tmux htop vim
+apt-get install nano less tree net-tools lsof man-db zip screen rsync apt-offline gnupg iproute2 ncdu gdb ripgrep bash-completion
