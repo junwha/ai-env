@@ -11,8 +11,8 @@ apt-get install gcc g++ clang vim git binutils cmake wget bison ninja-build buil
 apt-get install python3-pip virtualenv python3-setuptools
 
 # For X11
-apt-get install -y mesa-utils x11-apps
-apt-get install -y freeglut3-dev libglu1-mesa-dev mesa-common-dev libxkbfile-dev libgl1-mesa-glx
+apt-get install mesa-utils x11-apps
+apt-get install freeglut3-dev libglu1-mesa-dev mesa-common-dev libxkbfile-dev libgl1-mesa-glx
 
 # Additional Utils
 apt-get install ssh openssh-server
