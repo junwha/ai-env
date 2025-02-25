@@ -2,6 +2,8 @@
 DOWNLOAD_DIR=$1
 cd $DOWNLOAD_DIR
 
+export DEBIAN_FRONTEND=noninteractive
+
 alias apt-get="$(which apt-get) -y"
 
 # Add Docker's official GPG key:
