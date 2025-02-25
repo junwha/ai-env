@@ -16,5 +16,5 @@ apt-get install -y freeglut3-dev libglu1-mesa-dev mesa-common-dev libxkbfile-dev
 
 # Additional Utils
 apt-get install ssh openssh-server
-apt-get install x11
-apt-get instal tmux htop vim
+apt-get install x11 samba
+apt-get install tmux htop vim
