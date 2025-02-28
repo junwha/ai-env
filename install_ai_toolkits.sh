@@ -18,13 +18,13 @@ for version in 3.9 3.10 3.11 3.12; do
     conda install -c "nvidia/label/cuda-12.6.3" cuda -y #! 12.8
 
     # Base packages
-    pip install -y torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126 #! 12.8
-    pip install -y torch_tb_profiler
-    pip install -y tensorboard
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126 #! 12.8
+    pip install torch_tb_profiler
+    pip install tensorboard
 done
 
 # OpenCV
-pip install -y opencv-python
+pip install opencv-python
 
 # Nsight
 sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
