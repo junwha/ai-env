@@ -12,3 +12,7 @@ bash ./install_uv_env.sh $DOWNLOAD_DIR            # uv + Python 3.13 venv, broad
 
 bash ./docker_images_b300.sh $DOWNLOAD_DIR
 bash ./download_b300_models.sh $HUGGINGFACE_TOKEN
+
+git clone --branch b300 https://github.com/junwha/LLMServingSim && \
+    cd profiler && bash install.sh && \
+    bash profile_all.sh
