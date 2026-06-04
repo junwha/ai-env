@@ -10,3 +10,9 @@ docker pull lmsysorg/sglang:v0.5.12.post1-cu130
 docker pull lmsysorg/sglang:v0.5.12-cu130
 docker pull lmsysorg/sglang:v0.5.11-cu130
 docker pull astrasim/tutorial-micro2024
+
+docker pull pytorch/pytorch:2.12.0-cuda13.0-cudnn9-runtime
+docker pull nvcr.io/nvidia/pytorch:25.11-py3
+docker pull nvcr.io/nvidia/pytorch:26.01-py3
+docker pull nvcr.io/nvidia/pytorch:26.03-py3
+docker pull nvcr.io/nvidia/pytorch:26.05-py3
