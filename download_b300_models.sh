@@ -10,9 +10,9 @@ export HF_HUB_ENABLE_HF_TRANSFER=1
 pip install -U "huggingface_hub[cli]" hf_transfer
 
 # Optional auth: only log in if a token was provided
-# if [ -n "$TOKEN" ]; then
-#    huggingface-cli login --token "$TOKEN"
-# fi
+if [ -n "$TOKEN" ]; then
+    huggingface-cli login --token "$TOKEN"
+fi
 
 # --- GLM-5.1: official BF16 + official FP8 (download both, BF16 first) ---
 huggingface-cli download zai-org/GLM-5.1        # BF16 full weights
