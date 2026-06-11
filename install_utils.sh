@@ -74,3 +74,6 @@ apt-get install -y samba
 apt-get install -y tmux htop vim xclip net-tools iotop gparted synaptic screen flameshot tilix;  snap install vlc; snap install onlyoffice-desktopeditors
 apt-get install -y nano less tree net-tools lsof man-db zip screen rsync apt-offline gnupg iproute2 ncdu gdb ripgrep bash-completion
 
+# Huggingface CLI
+curl -LsSf https://hf.co/cli/install.sh | bash
+
